@@ -1,23 +1,28 @@
-.img-center {
-	margin: 0 auto;
+h1,h2 {
+	padding: 30px 0;
+	font-size: 30px;
+	color: white;
 }
-.header-menu,  
 .header,
-.header .jumbotron {
-	margin: 0;
+.main__search {
+	padding: 30px 0;
+} 
+.header-menu,  
+.header {
 	border: none;
 	border-radius: 0;
+}
+.img-center {
+	margin: 0 auto;
 }
 
 /*HEADER*/
 
 .header-menu {
+	margin: 0;
+	padding: 20px 0;
 	letter-spacing: 5px;
 	font-family: 'Montserrat', Arial, sans-serif;
-}
-.header-menu .navbar-brand,
-.header .row p {
-	font-size: 20px;
 }
 .header-menu ul a {
 	font-size: 12px;
@@ -25,10 +30,14 @@
 .header {
 	background-color: #1abc9c;
 }
-.header .row p {
-	padding: 30px 0;
-	color: white;
-}
 
 /*MAIN*/
 
+.main {
+	background-color: #474e5d;
+}
+.main p {
+	padding: 0 30px;
+	font-size: 18px;
+	color: white;
+}
