@@ -1,7 +1,7 @@
 body {
 	font-family: 'Montserrat', Arial, sans-serif;
 }
-h1,h2,h3 {
+h1, h2, h3 {
 	padding: 30px 0;
 	font-size: 30px;
 	color: white;
@@ -9,14 +9,13 @@ h1,h2,h3 {
 h3 {
 	color: #555555;;
 }
-.header,
-.main,
-.main + div,
-.footer {
+header,
+main,
+footer {
 	padding: 40px 0;
 } 
-.header-menu,  
-.header {
+.menu,  
+header {
 	border: none;
 	border-radius: 0;
 }
@@ -26,39 +25,50 @@ h3 {
 
 /*HEADER*/
 
-.header-menu {
+.menu {
 	margin: 0;
 	padding: 20px 0;
 	letter-spacing: 5px;
 }
-.header-menu ul a {
+.menu ul a {
 	font-size: 12px;
 }
-.header {
+.menu ul a:hover,
+.menu ul a:focus {
+	color: #1abc9c !important;
+}
+header {
 	background-color: #1abc9c;
 }
 
 /*MAIN*/
 
-.main {
+main {
 	background-color: #474e5d;
 }
-.main p {
+main p {
 	padding: 0 30px;
 	font-size: 18px;
 	color: white;
 }
-.main + div p {
+main a {
+	margin: 0 auto;
+}
+section {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+section p {
 	padding: 20px 0; 
 	font-size: 16px;
 }
-.main + div img {
+section img {
 	width: 100%;
 }
 
 /*FOOTER*/
 
-.footer {
+footer {
 	color: white;
 	background-color: #2f2f2f;
 }
